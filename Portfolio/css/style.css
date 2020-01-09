@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 
 /* Titre */
 .top { /* Nom + Titre */
+=======
+.top {
+>>>>>>> master
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -9,7 +13,11 @@
     height: 100%;
 }
 
+<<<<<<< HEAD
 .titledescri { /* Nom */
+=======
+.titledescri {
+>>>>>>> master
     font-size: 28px;
     margin-top: 1%;
     margin-bottom: 0%;
@@ -18,7 +26,11 @@
 .textcolor {
     color: #484e53;
 }
+<<<<<<< HEAD
 .titlejob { /* Dev */
+=======
+.titlejob {
+>>>>>>> master
     margin-top: 2%;
     font-size: 20px;
 }
@@ -31,33 +43,53 @@ body {
     height: 100%;
     margin-bottom: 0%;
 }
+<<<<<<< HEAD
 .barbot { /* Barre de séparation */
+=======
+.barbot {
+>>>>>>> master
     width: 100%;
     height: 2px;
     background-color: #8798ad;
 }
 
+<<<<<<< HEAD
 .banner { /* Bannière */
+=======
+.banner {
+>>>>>>> master
     align-self: center;
     margin-top: 2%;
     width: 90%;
     height: 30%;
 }
+<<<<<<< HEAD
 .imgbanner { /* Photo bannère */
+=======
+.imgbanner {
+>>>>>>> master
     display: flex;
     width: 100%;
     height: 30%;
     margin: auto;
 }
 
+<<<<<<< HEAD
 .textcenter { /* Projets Réalisés */
+=======
+.textcenter {
+>>>>>>> master
     font-size: 24px;
     display: flex;
     margin-left: 5%;
     margin-bottom: 0%;
 }
 
+<<<<<<< HEAD
 .boxbottom { /* Groupe de box */
+=======
+.boxbottom {
+>>>>>>> master
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -67,7 +99,11 @@ body {
     margin-bottom: 5%;
 }
 
+<<<<<<< HEAD
 .box1 { /* Box Gauche */
+=======
+.box1 {
+>>>>>>> master
     display: flex;
     border: 1px #484e53 solid;
     margin-top: 2%;
@@ -76,7 +112,11 @@ body {
     width: 30%;
 }
 
+<<<<<<< HEAD
 .box2 { /* Box Milieu */
+=======
+.box2 {
+>>>>>>> master
     display: flex;
     border: 1px #484e53 solid;
     margin-top: 2%;
@@ -85,7 +125,11 @@ body {
     width: 30%;
 }
 
+<<<<<<< HEAD
 .box3 { /* Box Droite */
+=======
+.box3 {
+>>>>>>> master
     display: flex;
     flex-direction: column;
     border: 0.5px #484e53 solid;
@@ -94,33 +138,53 @@ body {
     width: 30%;
 }
 
+<<<<<<< HEAD
 .boximg { /* Image Box */
+=======
+.boximg {
+>>>>>>> master
     align-self: center;
     height: 45%;
     width: 100%;
     margin-bottom: 3%;
 }
 
+<<<<<<< HEAD
 .imgbox { /* Image Box */
+=======
+.imgbox {
+>>>>>>> master
     height: 100%;
     width: 100%;
 }
 
+<<<<<<< HEAD
 .titlebox { /* Titre dans box */
+=======
+.titlebox {
+>>>>>>> master
     font-size: 18px;
     font-weight: bold;
     margin-top: 3%;
     margin-left: 3%;
 }
 
+<<<<<<< HEAD
 .describox { /* Description dans Box */
+=======
+.describox {
+>>>>>>> master
     margin-top: 3%;
     height: 90px;
     margin-left: 3%;
     font-size: 15px;
 }
 
+<<<<<<< HEAD
 .boutonpro { /* Boutons projets */
+=======
+.boutonpro {
+>>>>>>> master
     background-color:#484e53;
     cursor:pointer;
     color: white;
@@ -154,5 +218,9 @@ body {
     .boutonpro {
         font-size: 10px;
         padding: 6px 6px;
+<<<<<<< HEAD
     }
 }
+=======
+    }
+>>>>>>> master
