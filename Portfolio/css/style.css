@@ -1,4 +1,6 @@
-.top {
+
+/* Titre */
+.top { /* Nom + Titre */
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -7,7 +9,7 @@
     height: 100%;
 }
 
-.titledescri {
+.titledescri { /* Nom */
     font-size: 28px;
     margin-top: 1%;
     margin-bottom: 0%;
@@ -16,7 +18,7 @@
 .textcolor {
     color: #484e53;
 }
-.titlejob {
+.titlejob { /* Dev */
     margin-top: 2%;
     font-size: 20px;
 }
@@ -29,33 +31,33 @@ body {
     height: 100%;
     margin-bottom: 0%;
 }
-.barbot {
+.barbot { /* Barre de séparation */
     width: 100%;
     height: 2px;
     background-color: #8798ad;
 }
 
-.banner {
+.banner { /* Bannière */
     align-self: center;
     margin-top: 2%;
     width: 90%;
     height: 30%;
 }
-.imgbanner {
+.imgbanner { /* Photo bannère */
     display: flex;
     width: 100%;
     height: 30%;
     margin: auto;
 }
 
-.textcenter {
+.textcenter { /* Projets Réalisés */
     font-size: 24px;
     display: flex;
     margin-left: 5%;
     margin-bottom: 0%;
 }
 
-.boxbottom {
+.boxbottom { /* Groupe de box */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -65,7 +67,7 @@ body {
     margin-bottom: 5%;
 }
 
-.box1 {
+.box1 { /* Box Gauche */
     display: flex;
     border: 1px #484e53 solid;
     margin-top: 2%;
@@ -74,7 +76,7 @@ body {
     width: 30%;
 }
 
-.box2 {
+.box2 { /* Box Milieu */
     display: flex;
     border: 1px #484e53 solid;
     margin-top: 2%;
@@ -83,7 +85,7 @@ body {
     width: 30%;
 }
 
-.box3 {
+.box3 { /* Box Droite */
     display: flex;
     flex-direction: column;
     border: 0.5px #484e53 solid;
@@ -92,33 +94,33 @@ body {
     width: 30%;
 }
 
-.boximg {
+.boximg { /* Image Box */
     align-self: center;
     height: 45%;
     width: 100%;
     margin-bottom: 3%;
 }
 
-.imgbox {
+.imgbox { /* Image Box */
     height: 100%;
     width: 100%;
 }
 
-.titlebox {
+.titlebox { /* Titre dans box */
     font-size: 18px;
     font-weight: bold;
     margin-top: 3%;
     margin-left: 3%;
 }
 
-.describox {
+.describox { /* Description dans Box */
     margin-top: 3%;
     height: 90px;
     margin-left: 3%;
     font-size: 15px;
 }
 
-.boutonpro {
+.boutonpro { /* Boutons projets */
     background-color:#484e53;
     cursor:pointer;
     color: white;
@@ -153,3 +155,4 @@ body {
         font-size: 10px;
         padding: 6px 6px;
     }
+}
