@@ -1,0 +1,212 @@
+/* pk img reset logo */
+
+body {
+    background-image: url(../img/back.jpg);
+    overflow: hidden;
+}
+
+
+img {
+    width: 1300px;
+    cursor: pointer;
+}
+
+
+.pokeball {
+    width: 90px;
+    height: 70px;
+    margin-left: 30px;
+}
+
+.choix {
+    width: 300px;
+    height: 100px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+}
+
+/*LOGO*/
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.reset-logo {
+    width: 700px;
+    height: 400px;
+}
+
+/*POKEBALL*/
+.poke {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+#reset {
+    position: fixed;
+    bottom: 10px;
+    background-color: #FFCA39;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+}
+
+/*CHOOSE YOURS*/
+.box-choose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.choix {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin-left: 15px;
+}
+
+/*BTN*/
+.box-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#boutonatk {
+    background-color: #FFCA39;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+
+.bot {
+    display: flex;
+    justify-content: center;
+}
+
+.life {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    height: 30px;
+}
+
+#test {
+    visibility: hidden;
+    background-color: rgba(178, 179, 151, 0.63);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 500px;
+}
+
+#choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+#play {
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: #FFCA39;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+#battle {
+    visibility: hidden;
+    position: fixed;
+    bottom: 100px;
+    left: 500px;
+    margin-left: 130px;
+    background-color: #FFCA39;
+    border: none;
+    border-radius: 10px;
+    margin-top: 100px;
+    width: 100px;
+    height: 40px;
+}
+
+
+
+p {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#hp1 {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #FFCA39;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#hp2 {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #FFCA39;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.btnselect{
+    position: fixed;
+    top: 10px;
+}
+
+.btnselect1{
+    position: fixed;
+    top: 10px;
+    left: 200px;
+}
+
+.actions-menu {
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 208, 0, 0.829);
+    margin: 10px;
+}
+
+.card-selected {
+    border: #88950C 2px solid;
+    padding: 3px 3px 3px 3px;
+}
+
+.card-selected .select-card-button {
+    bottom: 2px;
+    right: 2px;
+}
+
