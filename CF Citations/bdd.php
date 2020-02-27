@@ -16,7 +16,7 @@ $dbname = 'dbs266440';
 try
 {
     // Connect MYSQL
-    $bdd = new PDO('mysql:host=db5000272979.hosting-data.io;dbname=dbs266440;charset=utf8', 'dbu45287', 'Satonawall26!');
+    $bdd = new PDO('mysql:host=db5000272979.hosting-data.io;dbname=dbs266440;charset=utf8', 'dbu45287', 'root');
 }
 
 /*
