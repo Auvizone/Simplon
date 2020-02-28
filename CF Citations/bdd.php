@@ -6,31 +6,31 @@ ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
 
 
-$host = 'db5000272979';
-$user = 'dbu45287';
-$password = 'root';
-$dbname = 'dbs266440';
+$host = '';
+$user = '';
+$password = '';
+$dbname = '';
 
 // set bdd //
 
 try
 {
     // Connect MYSQL
-    $bdd = new PDO('mysql:host=db5000272979.hosting-data.io;dbname=dbs266440;charset=utf8', 'dbu45287', 'root');
+    $bdd = new PDO('mysql:host=.hosting-data.io;dbname=;charset=utf8', '', '');
 }
 
 /*
-$host = 'localhost';
-$user = 'root';
-$password = 'test';
-$dbname = 'Citations';
+$host = '';
+$user = '';
+$password = '';
+$dbname = '';
 
 // set bdd //
 
 try
 {
     // Connect MYSQL
-    $bdd = new PDO('mysql:host=localhost;dbname=Citations;charset=utf8', 'root', 'test');
+    $bdd = new PDO('mysql:host=;dbname=;charset=utf8', '', '');
 }
 
 */
